@@ -1,0 +1,14 @@
+{
+  "testConfig": {
+    "browser": "chrome", //firefox, edge, ie and chrome
+    "headlessMode": "No", //Yes -- Non GUI Mode, //No -- GUI Mode
+    "reportName": "Regression Report",
+    "suite": "Regression Suite",
+    "product": "Demo Katalon",
+    "author": "Balaji G"
+  },
+
+  "appConfig": {
+    "webBaseURL": "https://cms.demo.katalon.com/"
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.15.4.0" clr-version="6.0.16" start-time="2023-06-02 20:00:03Z" end-time="2023-06-02 20:00:40Z" duration="37.557392">
+  <command-line><![CDATA[C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0\NUnit-3.15.4\bin\net6.0\nunit3-console.dll QualiTestAssessment.dll --where "cat == Regression"]]></command-line>
+  <filter>
+    <cat>Regression</cat>
+  </filter>
+  <test-suite type="Assembly" id="1-1003" name="QualiTestAssessment.dll" fullname="C:/Project/qualitest/QualiTestAssessment/bin/Debug/net6.0/QualiTestAssessment.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-02T20:00:03.3639384Z" end-time="2023-06-02T20:00:40.7264673Z" duration="37.362455" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.13.3.0" clr-version="6.0.16" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0" machine-name="IGS-W-L-173" user="b.gopi" user-domain="PT" culture="en-GB" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="57980" />
+      <property name="_APPDOMAIN" value="nunit3-console" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="QualiTestAssessment_NUnitAssemblyHooks" classname="QualiTestAssessment_NUnitAssemblyHooks" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-02T20:00:03.3747203Z" end-time="2023-06-02T20:00:40.7253188Z" duration="37.350584" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <output><![CDATA[-> Loading plugin C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0\QualiTestAssessment.dll
+-> Using default config
+-> LivingDocPlugin: Output generated in: C:\Project\qualitest\QualiTestAssessment\bin\Debug\net6.0\TestExecution.json
+]]></output>
+      <test-suite type="TestSuite" id="1-1004" name="QualiTestAssessment" fullname="QualiTestAssessment" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-02T20:00:03.8703280Z" end-time="2023-06-02T20:00:28.1945077Z" duration="24.324168" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-suite type="TestSuite" id="1-1005" name="Features" fullname="QualiTestAssessment.Features" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-02T20:00:03.8704549Z" end-time="2023-06-02T20:00:28.1933929Z" duration="24.322926" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-suite type="TestFixture" id="1-1001" name="AddItemsToCartFeature" fullname="QualiTestAssessment.Features.AddItemsToCartFeature" classname="QualiTestAssessment.Features.AddItemsToCartFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-02T20:00:03.8712718Z" end-time="2023-06-02T20:00:28.1930395Z" duration="24.321755" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="AddItemsToCart" />
+            </properties>
+            <test-case id="1-1002" name="AddItemsToCart" fullname="QualiTestAssessment.Features.AddItemsToCartFeature.AddItemsToCart" methodname="AddItemsToCart" classname="QualiTestAssessment.Features.AddItemsToCartFeature" runstate="Runnable" seed="739430638" result="Passed" start-time="2023-06-02T20:00:03.8853426Z" end-time="2023-06-02T20:00:28.1890699Z" duration="24.303800" asserts="4">
+              <properties>
+                <property name="Description" value="Add Items to Cart" />
+                <property name="Category" value="Regression" />
+              </properties>
+              <output><![CDATA[Given I add four random items to my cart
+-> done: AddItemsToCartSteps.GivenIAddFourRandomItemsToMyCart() (9.5s)
+When I view my cart
+-> done: AddItemsToCartSteps.WhenIViewMyCart() (3.2s)
+Then I find total four items listed in my cart
+-> done: AddItemsToCartSteps.ThenIFindTotalFourItemsListedInMyCart() (0.0s)
+When I search for lowest price item
+-> done: AddItemsToCartSteps.WhenISearchForLowestPriceItem() (0.1s)
+And I am able to remove the lowest price item from my cart
+-> done: AddItemsToCartSteps.WhenIAmAbleToRemoveTheLowestPriceItemFromMyCart() (5.3s)
+Then I am able to verify three items in my cart
+-> done: AddItemsToCartSteps.ThenIAmAbleToVerifyThreeItemsInMyCart() (0.0s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

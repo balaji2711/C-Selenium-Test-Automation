@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualiTestAssessment", "QualiTestAssessment.csproj", "{D9332B64-C4DB-466E-BBEE-953D2BF06F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreFramework", "..\CoreFramework\CoreFramework.csproj", "{39B55B43-422A-45D2-8EBD-E52D43E1DBEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9332B64-C4DB-466E-BBEE-953D2BF06F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9332B64-C4DB-466E-BBEE-953D2BF06F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9332B64-C4DB-466E-BBEE-953D2BF06F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9332B64-C4DB-466E-BBEE-953D2BF06F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B55B43-422A-45D2-8EBD-E52D43E1DBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B55B43-422A-45D2-8EBD-E52D43E1DBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B55B43-422A-45D2-8EBD-E52D43E1DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B55B43-422A-45D2-8EBD-E52D43E1DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5FA4E46-4BAF-4F09-984D-FD842D0D35C1}
+	EndGlobalSection
+EndGlobal
